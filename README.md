@@ -1,5 +1,3 @@
----
-
 # 📘 Guia Rápido – HTML, CSS e JavaScript
 
 ## 🌐 HTML (Estrutura da página)
