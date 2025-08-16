@@ -72,7 +72,7 @@ CSS define a **aparência** e **layout** do conteúdo.
 
 ---
 
-## ⚡ JavaScript (Interatividade)
+## JavaScript (Interatividade)
 
 JavaScript adiciona **dinâmica** e **funcionalidades** à página.
 
@@ -154,7 +154,7 @@ while (contador <= 5) {
 }
 ```
 
-👉 Saída no console:
+Saída no console:
 
 ```
 Contador: 1
