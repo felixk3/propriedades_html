@@ -181,3 +181,44 @@ Contador: 5
   });
 </script>
 ```
+
+
+## Exemplo de Objectos Em javascript e uso
+
+  <script>
+    // Nosso "dicionário" (mini banco de dados)
+    const livros = {
+      "javascript moderno": {
+        autor: "Felix Khoza",
+        ano: 2025,
+        descricao: "Um guia prático de JavaScript moderno."
+      },
+      "html e css": {
+        autor: "Nome do autor",
+        ano: 2022,
+        descricao: "Aprenda a criar páginas web responsivas do zero."
+      },
+      "algoritmos basicos": {
+        autor: "N. Autor",
+        ano: 2021,
+        descricao: "Fundamentos de lógica e algoritmos para iniciantes."
+      }
+    };
+
+    function buscar() {
+      const entrada = document.getElementById("pesquisa").value.toLowerCase();
+      const resultadoDiv = document.getElementById("resultado");
+
+      if (livros[entrada]) {
+        const livro = livros[entrada];
+        resultadoDiv.innerHTML = `
+          <h3>${entrada.toUpperCase()}</h3>
+          <p><b>Autor:</b> ${livro.autor}</p>
+          <p><b>Ano:</b> ${livro.ano}</p>
+          <p><b>Descrição:</b> ${livro.descricao}</p>
+        `;
+      } else {
+        resultadoDiv.innerHTML = `<p>Livro não encontrado.</p>`;
+      }
+    }
+  </script>
