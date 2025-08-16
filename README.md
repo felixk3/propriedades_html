@@ -1,6 +1,6 @@
-# 📘 Guia Rápido – HTML, CSS e JavaScript
+# Guia Rápido – HTML, CSS e JavaScript
 
-## 🌐 HTML (Estrutura da página)
+## HTML (Estrutura da página)
 
 ### Estrutura básica
 
@@ -121,7 +121,7 @@ JavaScript adiciona **dinâmica** e **funcionalidades** à página.
 
 ---
 
-## 🔁 Exemplo de `for` no JavaScript
+## Exemplo de `for` no JavaScript
 
 ```js
 // Mostra os números de 1 a 5
@@ -130,7 +130,7 @@ for (let i = 1; i <= 5; i++) {
 }
 ```
 
-👉 Saída no console:
+Saída no console:
 
 ```
 Número: 1
@@ -142,7 +142,7 @@ Número: 5
 
 ---
 
-## 🔁 Exemplo de `while` no JavaScript
+## Exemplo de `while` no JavaScript
 
 ```js
 // Conta até 5 usando while
@@ -184,7 +184,7 @@ Contador: 5
 
 
 ## Exemplo de Objectos Em javascript e uso
-
+```
   <script>
     // Nosso "dicionário" (mini banco de dados)
     const livros = {
@@ -222,3 +222,4 @@ Contador: 5
       }
     }
   </script>
+```
