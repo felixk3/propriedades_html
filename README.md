@@ -43,6 +43,7 @@ CSS define a **aparência** e **layout** do conteúdo.
   * `color` → Cor do texto.
   * `background-color` → Cor de fundo.
   * `background: rgba(0, 0, 0, 0.5) url("imagem.jpg") no-repeat center/cover;` → Imagem com opacidade
+  * `background-blend-mode: multiply;`→ Mistura a cor do background com a imagem do backgrond so assim funciona o efeito → Imagem com opacidade
   * `font-size` → Tamanho da fonte.
   * `font-family` → Tipo de letra.
   * `text-align` → Alinhamento do texto (left, center, right).
