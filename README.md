@@ -23,6 +23,7 @@
 * `<form>` → Formulário.
 * `<input>` → Campo de entrada (texto, senha, etc.).
 * `<button>` → Botão clicável.
+*  `<button onclick="buscar()">Buscar</button> ` chamando uma funcao javascript pelo button
 
 ---
 
